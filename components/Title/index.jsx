@@ -1,10 +1,10 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
-const Title = ({ children, size = 24, color = 'black', style }) => {
+const Title = ({ text, size = 24, color = 'black', style }) => {
   return (
     <Text style={[styles.title, { fontSize: size, color }, style]}>
-      {children}
+      {text}
     </Text>
   );
 };

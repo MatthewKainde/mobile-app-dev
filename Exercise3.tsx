@@ -7,7 +7,7 @@ import Title from './components/Title';
 const Login = () => {
   return (
     <View style={styles.container}>
-      <Title style={styles.title}>Welcome</Title>
+      <Title text="Welcome" />
       <TextInput placeholder="Masukan email anda" />
       <TextInput placeholder="Masukan password anda" secureTextEntry={true} />
       <Button text="Sign In" />
