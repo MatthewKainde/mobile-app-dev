@@ -9,7 +9,8 @@ import Exercise3 from './Exercise3';
 import Flexbox from './Flexbox';
 import Exercise5 from './Exercise5';
 import Exercise6 from './Exercise6';
+import Exercise7 from './Exercise7';
 import Login from './Login';
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => Exercise6);
+AppRegistry.registerComponent(appName, () => Exercise7);
