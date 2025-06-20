@@ -8,7 +8,7 @@ const Exercise7 = () => {
 
   useEffect(() => {
     axios
-      .get('https://reqres.in/api/users?page=1')
+      .get('https://reqres.in/api/users?page=2')
       .then(res => {
         setUsers(res.data.data);
       })
